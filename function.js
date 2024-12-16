@@ -1,4 +1,4 @@
-<script>
+
   $(document).ready(function () {
   function startMarquee() {
     const $marquee = $(".marquee");
@@ -20,4 +20,3 @@
   startMarquee();
 });
 
-</script>
