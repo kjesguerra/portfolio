@@ -1,18 +1,59 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kim James Esguerra - Web Developer</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="marquee-container">
-    <h1 class="marquee">Malaki mata ni Gladys Sauro! Malaki mata ni Gladys Sauro! Malaki mata ni Gladys Sauro!</h1>
-  </div>
-  <img src="images/27537427-9c89-4859-b661-b6691ec6a707.jpg" alt="My Image"/>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="function.js"></script>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h2>Hi, I'm a Web Developer</h2>
+            <p>Crafting modern and functional websites</p>
+            <button onclick="location.href='#projects'">View My Work</button>
+        </div>
+    </div>
+
+    <section id="projects" class="projects">
+        <h3>Projects</h3>
+        <div class="project-list">
+            <div class="project">
+                <h4>Project One</h4>
+                <p>A description of the project goes here.</p>
+            </div>
+            <div class="project">
+                <h4>Project Two</h4>
+                <p>A description of the project goes here.</p>
+            </div>
+            <div class="project">
+                <h4>Project Three</h4>
+                <p>A description of the project goes here.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h3>Contact Me</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
 </body>
 </html>
