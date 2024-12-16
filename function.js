@@ -1,5 +1,4 @@
-
-  $(document).ready(function () {
+$(document).ready(function () {
   function startMarquee() {
     const $marquee = $(".marquee");
     const containerWidth = $(".marquee-container").width();
